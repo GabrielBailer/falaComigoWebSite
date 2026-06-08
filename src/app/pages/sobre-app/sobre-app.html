@@ -1,34 +1,47 @@
-<div class="container  mx-auto p-6 max-w-7xl">
+<app-container>
 
-    <h1 class="text-xl md:text-2xl lg:text-3xl font-bold mb-6 text-center text-blue-400">
-        Conheça o app    
-    </h1>
+    <div class="flex flex-col gap-6 justify-center">
 
-    <div class="flex flex-col lg:flex-row items-center gap-8">
+        <!-- TÍTULO -->
+        <h1 class="font-semibold text-center text-blue-400 md:text-lg lg:text-xl">
+            Criando a Conta
+        </h1>
 
-        <div class="w-full lg:w-1/3">
-        
-        <div class="bg-white shadow-lg rounded-xl p-4">
-            
-            <div class="grid grid-cols-2 gap-4">
+        <!-- CONTEÚDO -->
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
 
-                <img src="images/video_ini_gif.gif"
-                     class="rounded-lg shadow-md w-full object-cover">
+            <!-- GIFS -->
+            <div class="w-full lg:w-1/3">
 
-                <img src="images/video_gif_1.gif"
-                     class="rounded-lg shadow-md w-full object-cover">
+                <div class="grid grid-cols-2 gap-4">
 
-                <img src="images/video_gif_2.gif"
-                     class="rounded-lg shadow-md w-full object-cover">
+                    <img
+                        src="images/Criar_conta.gif"
+                        alt="Mostrando como criar conta"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
 
-                <img src="images/video_gif_3.gif"
-                     class="rounded-lg shadow-md w-full object-cover">
+                    <img
+                        src="images/Criar_conta_adulto.gif"
+                        alt="Mostrando cadastro de adulto"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
 
-                <img src="images/video_gif_4.gif"
-                     class="rounded-lg shadow-md w-full object-cover">
+                </div>
 
-                <img src="images/video_gif_5.gif"
-                     class="rounded-lg shadow-md w-full object-cover">
+            </div>
+
+            <!-- TEXTO -->
+            <div class="w-full lg:w-2/3 text-center md:text-left">
+
+                <p class="text-gray-600 text-sm md:text-base text-justify lg:text-lg leading-relaxed">
+                    Para fazer uma conta no app é muito simples: basta preencher suas informações.
+                    O aplicativo já vem com quatro interações pré-criadas para facilitar o início do uso.
+                    Também foi implementado um controle baseado na idade do usuário.
+                    Caso seja menor de idade, será necessário cadastrar um responsável, que poderá definir
+                    uma senha para autorizar futuras criações de interações.
+                    Já usuários maiores de idade podem configurar sua própria senha para controle geral do aplicativo.
+                </p>
 
             </div>
 
@@ -36,73 +49,150 @@
 
     </div>
 
+</app-container>
 
-     <div class="w-full lg:w-2/3 flex flex-col gap-6">
+<app-container>
 
-        <!-- CARD 1 -->
-        <app-container>
-            <img src="/images/sobre-o-app-1.jpeg"
-                 class="w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36 xl:w-40 xl:h-40 rounded-xl object-cover">
+    <div class="flex flex-col gap-6 justify-center ">
 
-            <div class="flex-1 text-center md:text-left">
-                <h3 class="font-semibold text-blue-400 mb-2 text-base md:text-lg lg:text-xl">
-                    O que é o Fala Comigo?
-                </h3>
-                <p class="text-gray-600 text-sm md:text-2xl lg:text-lg xl:text-xl">
-                    O Fala Comigo é um aplicativo criado para ajudar se expressarem com mais facilidade, promovendo
-                    autonomia no dia a dia
+        <!-- TÍTULO -->
+        <h1 class="font-semibold text-blue-400 text-center md:text-lg lg:text-xl">
+           Cadastrando Responsável
+        </h1>
+
+        <!-- CONTEÚDO -->
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
+
+
+            <!-- TEXTO -->
+            <div class="w-full lg:w-2/3 text-center md:text-left">
+
+                <p class="text-gray-600 text-sm md:text-base text-justify lg:text-lg leading-relaxed">
+                    O cadastro do responsável é outro passo simples, mas importante para o controle do uso do APP, para cadastrar é simples você precisa apenas por o e-mail do responsável da criança, escrever o código enviado e por fim fazer o cadastro da senha! Pronto simples assim! 
                 </p>
+
             </div>
-        </app-container>
 
-        <!-- CARD 2 -->
-        <app-container>
-            <img src="/images/sobre-o-app-2.jpeg"
-                 class="w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36 xl:w-40 xl:h-40 rounded-xl object-cover">
+                        <!-- GIFS -->
+            <div class="w-full lg:w-1/3">
 
-            <div class="flex-1 text-center md:text-left">
-                <h3 class="font-semibold text-blue-400 mb-2 text-base md:text-lg lg:text-xl">
-                    Para quem é?
-                </h3>
-                <p class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
-                    O Fala Comigo é para todas as pessoas que desejam se comunicar melhor, seja em casa, na escola,
-                    no trabalho, ou em qualquer lugar.
-                </p>
+                <div class="grid grid-cols-2 gap-4">
+
+                    <img
+                        src="images/Ativando_modoresp.gif"
+                        alt="Mostrando como criar conta"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
+
+                    <img
+                        src="images/Cadastrar_responsável.gif"
+                        alt="Mostrando cadastro de adulto"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
+
+                </div>
+
             </div>
-        </app-container>
 
-        <!-- CARD 3 -->
-        <app-container>
-
-            <img src="/images/sobre-o-app-3.jpeg"
-                 class="w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36 xl:w-40 xl:h-40 rounded-xl object-cover">
-
-            <div class="flex-1 text-center md:text-left">
-                <h3 class="font-semibold text-blue-400 mb-2 text-base md:text-lg lg:text-xl">
-                    Como funciona?
-                </h3>
-                <p class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
-                    Através de interações simples e intuitivas, o aplicativo permite que o usuário se comunique de
-                    maneira prática, seja por texto, voz ou imagens.
-                </p>
-            </div>
-        </app-container>
-
-    </div>
-
-    </div>
-
-    <!-- CTA -->
-    <div class="flex justify-center mt-8">
-        <div class="bg-white shadow-lg rounded-lg p-6 md:p-8 text-center max-w-xl">
-            <p class="text-gray-700 mb-4 text-base md:text-lg">
-                Comece agora mesmo:
-            </p>
-            <a href="/app/app-debug.apk" download
-               class="inline-block bg-amber-200 px-4 py-2 rounded-lg hover:bg-blue-400 transition font-extrabold">
-                Baixar aplicativo
-            </a>
         </div>
+
     </div>
 
-</div>
+</app-container>
+
+<app-container>
+
+    <div class="flex flex-col gap-6 justify-center ">
+
+        <!-- TÍTULO -->
+        <h1 class="font-semibold text-blue-400 text-center md:text-lg lg:text-xl">
+           Modo Escuro e Modo Rápido
+        </h1>
+
+        <!-- CONTEÚDO -->
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
+
+                 <!-- GIFS -->
+            <div class="w-full lg:w-1/3">
+
+                <div class="grid grid-cols-2 gap-4">
+
+                    <img
+                        src="images/Modo escuro.gif"
+                        alt="Mostrando como criar conta"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
+
+                    <img
+                        src="images/Modo_FalaAlto.gif"
+                        alt="Mostrando cadastro de adulto"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
+
+                </div>
+
+            </div>
+
+            <!-- TEXTO -->
+            <div class="w-full lg:w-2/3 text-center md:text-left">
+
+                <p class="text-gray-600 text-sm md:text-base text-justify lg:text-lg leading-relaxed">
+                    O app contém o modo escuro para aqueles que preferem pouca claridade em seu apps, mesmo que ele não venha de forma altomática. E também temos a opção de fala rápida onde basta apertar na interação desejada que o app irá falar! Isso é para aqueles que preferem mais praticidade no dia a dia. Um adento importante é que caso o modo responsável esteja ativado basta segurar na interação desejada para edita-la!
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</app-container>
+
+<app-container>
+
+    <div class="flex flex-col gap-6 justify-center ">
+
+        <!-- TÍTULO -->
+        <h1 class="font-semibold text-blue-400 text-center md:text-lg lg:text-xl">
+           O Modo Responsável
+        </h1>
+
+        <!-- CONTEÚDO -->
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
+
+
+            <!-- TEXTO -->
+            <div class="w-full lg:w-2/3 text-center md:text-left">
+
+                <p class="text-gray-600 text-sm md:text-base text-justify lg:text-lg leading-relaxed">
+                    O modo responsável é importante para o app para trazer praticidade e segurança nas interações. Ao ativa-lo você tem acesso a criação de novas interação, além de poder edita-las e ou excluir as interações indesejadas. Sem contar claro que você pode mudar a senha de responsável sempre que precisar, e sim o e-mail será enviado para o e-mail do responsável não o cadastrado para criação da conta!
+                </p>
+
+            </div>
+
+                        <!-- GIFS -->
+            <div class="w-full lg:w-1/3">
+
+                <div class="grid grid-cols-2 gap-4">
+
+                    <img
+                        src="images/video_gif_3.gif"
+                        alt="Mostrando como criar conta"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
+
+                    <img
+                        src="images/video_gif_5.gif"
+                        alt="Mostrando cadastro de adulto"
+                        class="rounded-lg shadow-md w-full object-cover hover:scale-105 transition duration-300"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</app-container>
